@@ -1,0 +1,40 @@
+
+//
+//  PrefixHeader.pch
+//  FreeWeekend
+//
+//  Created by qianfeng on 15/12/15.
+//  Copyright © 2015年 陈璐. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//登陆
+//@"http://api.lanrenzhoumo.com/cover/common/get_covers?session_id=000040fbe8f4242bdbb2808145bda7aa8e6106"
+//主页
+#define MainURL @"http://api.lanrenzhoumo.com/main/recommend/index/?city_id=0&lat=34.7718&lon=113.6726&page=%ld&session_id=0000420e5a44e8cda0ec934a0d840175ab34b6&v=3"
+//详情
+#define DetailURL @"http://api.lanrenzhoumo.com/wh/common/leo_detail?leo_id=%@&v=2"
+
+//@"http://api.lanrenzhoumo.com/main/recommend/index/?city_id=0&lat=34.7718&lon=113.6726&page=1&session_id=0000420e5a44e8cda0ec934a0d840175ab34b6&v=3"
+
+//@"http://api.lanrenzhoumo.com/main/recommend/index/?city_id=0&lat=34.7718&lon=113.6726&page=1&session_id=0000420e5a44e8cda0ec934a0d840175ab34b6&v=3"
+
+
+//@"http://api.lanrenzhoumo.com/wh/common/leo_detail?leo_id=1351182808&session_id=000040fbe8f4242bdbb2808145bda7aa8e6106&v=2"
+
+#define FONT [UIFont fontWithName:@"FZLTXHK--GBK1-0" size:16]
+#define DETAILFONT [UIFont fontWithName:@"FZLTXHK--GBK1-0" size:25]
+#define DESCFONT [UIFont fontWithName:@"Gotham-Light" size:20]
+#define CUTEFONT [UIFont fontWithName:@"Gotham-Light" size:16]
+#define TINTCOLOR [UIColor colorWithRed:169/255.0  green:173/255.0 blue:177/255.0  alpha:1.0]
+#define BACKGROUNDCOLOR [UIColor colorWithRed:248/255.0  green:248/255.0 blue:248/255.0  alpha:1.0]
+#define BLACKCOLOR [UIColor colorWithRed:54/255.0  green:54/255.0 blue:54/255.0  alpha:1.0]
+#define AppWidth ([UIScreen mainScreen].bounds.size.width)
+//app的宽度
+#define AppHeight ([UIScreen mainScreen].bounds.size.height)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
